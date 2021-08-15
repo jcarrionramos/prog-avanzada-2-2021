@@ -3,4 +3,4 @@ project(Ayudantias_Nicolas)
 
 set(CMAKE_CXX_STANDARD 23)
 
-add_executable(Ayudantias_Nicolas main.cpp)
+add_executable(Ayudantias_Nicolas ayudantia1.cpp)

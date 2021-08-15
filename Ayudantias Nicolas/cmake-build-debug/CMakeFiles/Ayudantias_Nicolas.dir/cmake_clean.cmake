@@ -2,7 +2,7 @@ file(REMOVE_RECURSE
   "Ayudantias_Nicolas.exe"
   "Ayudantias_Nicolas.exe.manifest"
   "Ayudantias_Nicolas.pdb"
-  "CMakeFiles/Ayudantias_Nicolas.dir/main.cpp.obj"
+  "CMakeFiles/Ayudantias_Nicolas.dir/ayudantia1.cpp.obj"
   "libAyudantias_Nicolas.dll.a"
 )
 
