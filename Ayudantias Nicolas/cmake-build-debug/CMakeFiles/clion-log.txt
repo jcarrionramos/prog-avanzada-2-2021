@@ -1,0 +1,4 @@
+C:\Users\nico0\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\212.4746.93\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - MinGW Makefiles" "E:\Proyectos\C++\prog-avanzada-2-2021\Ayudantias Nicolas"
+-- Configuring done
+-- Generating done
+-- Build files have been written to: E:/Proyectos/C++/prog-avanzada-2-2021/Ayudantias Nicolas/cmake-build-debug
