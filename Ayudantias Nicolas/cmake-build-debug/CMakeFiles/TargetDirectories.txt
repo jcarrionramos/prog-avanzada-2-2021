@@ -1,3 +1,0 @@
-E:/Proyectos/C++/prog-avanzada-2-2021/Ayudantias Nicolas/cmake-build-debug/CMakeFiles/edit_cache.dir
-E:/Proyectos/C++/prog-avanzada-2-2021/Ayudantias Nicolas/cmake-build-debug/CMakeFiles/Ayudantias_Nicolas.dir
-E:/Proyectos/C++/prog-avanzada-2-2021/Ayudantias Nicolas/cmake-build-debug/CMakeFiles/rebuild_cache.dir
