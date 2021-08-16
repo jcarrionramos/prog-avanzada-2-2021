@@ -128,29 +128,29 @@ Nicolas/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nicolas.dir\build.make CMakeFiles/Nicolas.dir/build
 .PHONY : Nicolas/fast
 
-main.obj: main.cpp.obj
-.PHONY : main.obj
+prom31.obj: prom31.cpp.obj
+.PHONY : prom31.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nicolas.dir\build.make CMakeFiles/Nicolas.dir/main.cpp.obj
-.PHONY : main.cpp.obj
+prom31.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nicolas.dir\build.make CMakeFiles/Nicolas.dir/prom31.cpp.obj
+.PHONY : prom31.cpp.obj
 
-main.i: main.cpp.i
-.PHONY : main.i
+prom31.i: prom31.cpp.i
+.PHONY : prom31.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nicolas.dir\build.make CMakeFiles/Nicolas.dir/main.cpp.i
-.PHONY : main.cpp.i
+prom31.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nicolas.dir\build.make CMakeFiles/Nicolas.dir/prom31.cpp.i
+.PHONY : prom31.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+prom31.s: prom31.cpp.s
+.PHONY : prom31.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nicolas.dir\build.make CMakeFiles/Nicolas.dir/main.cpp.s
-.PHONY : main.cpp.s
+prom31.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nicolas.dir\build.make CMakeFiles/Nicolas.dir/prom31.cpp.s
+.PHONY : prom31.cpp.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Nicolas
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... prom31.obj
+	@echo ... prom31.i
+	@echo ... prom31.s
 .PHONY : help
 
 
