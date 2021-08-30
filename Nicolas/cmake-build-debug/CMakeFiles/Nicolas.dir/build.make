@@ -43,10 +43,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = C:\Users\nico0\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\212.4746.93\bin\cmake\win\bin\cmake.exe
+CMAKE_COMMAND = C:\Users\nico0\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\212.5080.54\bin\cmake\win\bin\cmake.exe
 
 # The command to remove a file.
-RM = C:\Users\nico0\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\212.4746.93\bin\cmake\win\bin\cmake.exe -E rm -f
+RM = C:\Users\nico0\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\212.5080.54\bin\cmake\win\bin\cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -65,27 +65,27 @@ include CMakeFiles/Nicolas.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Nicolas.dir/flags.make
 
-CMakeFiles/Nicolas.dir/prom31.cpp.obj: CMakeFiles/Nicolas.dir/flags.make
-CMakeFiles/Nicolas.dir/prom31.cpp.obj: ../prom31.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Proyectos\C++\prog-avanzada-2-2021\Nicolas\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Nicolas.dir/prom31.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Nicolas.dir\prom31.cpp.obj -c E:\Proyectos\C++\prog-avanzada-2-2021\Nicolas\prom31.cpp
+CMakeFiles/Nicolas.dir/repasoayu2.cpp.obj: CMakeFiles/Nicolas.dir/flags.make
+CMakeFiles/Nicolas.dir/repasoayu2.cpp.obj: ../repasoayu2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Proyectos\C++\prog-avanzada-2-2021\Nicolas\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Nicolas.dir/repasoayu2.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Nicolas.dir\repasoayu2.cpp.obj -c E:\Proyectos\C++\prog-avanzada-2-2021\Nicolas\repasoayu2.cpp
 
-CMakeFiles/Nicolas.dir/prom31.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Nicolas.dir/prom31.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Proyectos\C++\prog-avanzada-2-2021\Nicolas\prom31.cpp > CMakeFiles\Nicolas.dir\prom31.cpp.i
+CMakeFiles/Nicolas.dir/repasoayu2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Nicolas.dir/repasoayu2.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Proyectos\C++\prog-avanzada-2-2021\Nicolas\repasoayu2.cpp > CMakeFiles\Nicolas.dir\repasoayu2.cpp.i
 
-CMakeFiles/Nicolas.dir/prom31.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Nicolas.dir/prom31.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Proyectos\C++\prog-avanzada-2-2021\Nicolas\prom31.cpp -o CMakeFiles\Nicolas.dir\prom31.cpp.s
+CMakeFiles/Nicolas.dir/repasoayu2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Nicolas.dir/repasoayu2.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Proyectos\C++\prog-avanzada-2-2021\Nicolas\repasoayu2.cpp -o CMakeFiles\Nicolas.dir\repasoayu2.cpp.s
 
 # Object files for target Nicolas
 Nicolas_OBJECTS = \
-"CMakeFiles/Nicolas.dir/prom31.cpp.obj"
+"CMakeFiles/Nicolas.dir/repasoayu2.cpp.obj"
 
 # External object files for target Nicolas
 Nicolas_EXTERNAL_OBJECTS =
 
-Nicolas.exe: CMakeFiles/Nicolas.dir/prom31.cpp.obj
+Nicolas.exe: CMakeFiles/Nicolas.dir/repasoayu2.cpp.obj
 Nicolas.exe: CMakeFiles/Nicolas.dir/build.make
 Nicolas.exe: CMakeFiles/Nicolas.dir/linklibs.rsp
 Nicolas.exe: CMakeFiles/Nicolas.dir/objects1.rsp
