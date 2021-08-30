@@ -128,29 +128,29 @@ Nicolas/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nicolas.dir\build.make CMakeFiles/Nicolas.dir/build
 .PHONY : Nicolas/fast
 
-repasoayu2.obj: repasoayu2.cpp.obj
-.PHONY : repasoayu2.obj
+prom12.obj: prom12.cpp.obj
+.PHONY : prom12.obj
 
 # target to build an object file
-repasoayu2.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nicolas.dir\build.make CMakeFiles/Nicolas.dir/repasoayu2.cpp.obj
-.PHONY : repasoayu2.cpp.obj
+prom12.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nicolas.dir\build.make CMakeFiles/Nicolas.dir/prom12.cpp.obj
+.PHONY : prom12.cpp.obj
 
-repasoayu2.i: repasoayu2.cpp.i
-.PHONY : repasoayu2.i
+prom12.i: prom12.cpp.i
+.PHONY : prom12.i
 
 # target to preprocess a source file
-repasoayu2.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nicolas.dir\build.make CMakeFiles/Nicolas.dir/repasoayu2.cpp.i
-.PHONY : repasoayu2.cpp.i
+prom12.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nicolas.dir\build.make CMakeFiles/Nicolas.dir/prom12.cpp.i
+.PHONY : prom12.cpp.i
 
-repasoayu2.s: repasoayu2.cpp.s
-.PHONY : repasoayu2.s
+prom12.s: prom12.cpp.s
+.PHONY : prom12.s
 
 # target to generate assembly for a file
-repasoayu2.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nicolas.dir\build.make CMakeFiles/Nicolas.dir/repasoayu2.cpp.s
-.PHONY : repasoayu2.cpp.s
+prom12.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nicolas.dir\build.make CMakeFiles/Nicolas.dir/prom12.cpp.s
+.PHONY : prom12.cpp.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Nicolas
-	@echo ... repasoayu2.obj
-	@echo ... repasoayu2.i
-	@echo ... repasoayu2.s
+	@echo ... prom12.obj
+	@echo ... prom12.i
+	@echo ... prom12.s
 .PHONY : help
 
 
