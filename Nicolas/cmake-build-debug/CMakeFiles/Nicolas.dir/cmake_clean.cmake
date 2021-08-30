@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Nicolas.dir/ayudantia32.cpp.obj"
+  "CMakeFiles/Nicolas.dir/ayudantia31.cpp.obj"
   "Nicolas.exe"
   "Nicolas.exe.manifest"
   "Nicolas.pdb"
