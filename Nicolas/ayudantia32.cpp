@@ -20,6 +20,7 @@ public:
         return lanza;
     }
 };
+
 class Saga{
 private:
     string nombre;
@@ -34,16 +35,16 @@ public:
     string getNombre(){
         return nombre;
     }
+    void setNombre(string nombre){
+        this->nombre=nombre;
+    }
     void getPelicula(int ind){
-        cout<<"Nombre pelicula"<<ind+1<<": "<<peliculas[ind]->getNombre()<<endl;
-        cout<<"Ano lanzamiento pelicula"<<ind+1<<": "<<peliculas[ind]->getLanza()<<endl;
+        cout<<"Nombre pelicula "<<ind+1<<": "<<peliculas[ind]->getNombre()<<endl;
+        cout<<"Ano lanzamiento pelicula "<<ind+1<<": "<<peliculas[ind]->getLanza()<<endl;
     }
     void setPelicula(string nombre,int lanza,int ind){
         peliculas[ind]->setNombre(nombre);
         peliculas[ind]->setLanza(lanza);
-    }
-    void setNombre(string nombre){
-        this->nombre=nombre;
     }
 };
 
@@ -53,6 +54,13 @@ int main(){
     cin>>saga;
     Saga *sag=new Saga(saga);
 
+    string nombre;
+    int lanza;
+    for (int i = 0; i < 5; ++i) {
+        cin>>nombre>>lanza;
+        sag->setPelicula(nombre,lanza,i);
+        sag->getPelicula(i);
+    }
 
     return 0;
 }
