@@ -128,29 +128,29 @@ Nicolas/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nicolas.dir\build.make CMakeFiles/Nicolas.dir/build
 .PHONY : Nicolas/fast
 
-prom22.obj: prom22.cpp.obj
-.PHONY : prom22.obj
+ayudantia23.obj: ayudantia23.cpp.obj
+.PHONY : ayudantia23.obj
 
 # target to build an object file
-prom22.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nicolas.dir\build.make CMakeFiles/Nicolas.dir/prom22.cpp.obj
-.PHONY : prom22.cpp.obj
+ayudantia23.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nicolas.dir\build.make CMakeFiles/Nicolas.dir/ayudantia23.cpp.obj
+.PHONY : ayudantia23.cpp.obj
 
-prom22.i: prom22.cpp.i
-.PHONY : prom22.i
+ayudantia23.i: ayudantia23.cpp.i
+.PHONY : ayudantia23.i
 
 # target to preprocess a source file
-prom22.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nicolas.dir\build.make CMakeFiles/Nicolas.dir/prom22.cpp.i
-.PHONY : prom22.cpp.i
+ayudantia23.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nicolas.dir\build.make CMakeFiles/Nicolas.dir/ayudantia23.cpp.i
+.PHONY : ayudantia23.cpp.i
 
-prom22.s: prom22.cpp.s
-.PHONY : prom22.s
+ayudantia23.s: ayudantia23.cpp.s
+.PHONY : ayudantia23.s
 
 # target to generate assembly for a file
-prom22.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nicolas.dir\build.make CMakeFiles/Nicolas.dir/prom22.cpp.s
-.PHONY : prom22.cpp.s
+ayudantia23.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nicolas.dir\build.make CMakeFiles/Nicolas.dir/ayudantia23.cpp.s
+.PHONY : ayudantia23.cpp.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Nicolas
-	@echo ... prom22.obj
-	@echo ... prom22.i
-	@echo ... prom22.s
+	@echo ... ayudantia23.obj
+	@echo ... ayudantia23.i
+	@echo ... ayudantia23.s
 .PHONY : help
 
 
