@@ -128,29 +128,29 @@ Nicolas/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nicolas.dir\build.make CMakeFiles/Nicolas.dir/build
 .PHONY : Nicolas/fast
 
-ayudantia34.obj: ayudantia34.cpp.obj
-.PHONY : ayudantia34.obj
+repasoPrueba2.obj: repasoPrueba2.cpp.obj
+.PHONY : repasoPrueba2.obj
 
 # target to build an object file
-ayudantia34.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nicolas.dir\build.make CMakeFiles/Nicolas.dir/ayudantia34.cpp.obj
-.PHONY : ayudantia34.cpp.obj
+repasoPrueba2.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nicolas.dir\build.make CMakeFiles/Nicolas.dir/repasoPrueba2.cpp.obj
+.PHONY : repasoPrueba2.cpp.obj
 
-ayudantia34.i: ayudantia34.cpp.i
-.PHONY : ayudantia34.i
+repasoPrueba2.i: repasoPrueba2.cpp.i
+.PHONY : repasoPrueba2.i
 
 # target to preprocess a source file
-ayudantia34.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nicolas.dir\build.make CMakeFiles/Nicolas.dir/ayudantia34.cpp.i
-.PHONY : ayudantia34.cpp.i
+repasoPrueba2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nicolas.dir\build.make CMakeFiles/Nicolas.dir/repasoPrueba2.cpp.i
+.PHONY : repasoPrueba2.cpp.i
 
-ayudantia34.s: ayudantia34.cpp.s
-.PHONY : ayudantia34.s
+repasoPrueba2.s: repasoPrueba2.cpp.s
+.PHONY : repasoPrueba2.s
 
 # target to generate assembly for a file
-ayudantia34.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nicolas.dir\build.make CMakeFiles/Nicolas.dir/ayudantia34.cpp.s
-.PHONY : ayudantia34.cpp.s
+repasoPrueba2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nicolas.dir\build.make CMakeFiles/Nicolas.dir/repasoPrueba2.cpp.s
+.PHONY : repasoPrueba2.cpp.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Nicolas
-	@echo ... ayudantia34.obj
-	@echo ... ayudantia34.i
-	@echo ... ayudantia34.s
+	@echo ... repasoPrueba2.obj
+	@echo ... repasoPrueba2.i
+	@echo ... repasoPrueba2.s
 .PHONY : help
 
 
