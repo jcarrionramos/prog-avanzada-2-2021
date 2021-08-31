@@ -25,15 +25,13 @@ class Vect {
     }
 
   public:
-
-    Vect(int newCap = 1) {
-      cap = newCap;
+    Vect(int capInit = 1) {
+      cap = capInit;
       size = 0;
       arr = new int[cap];
     }
 
     void pushBack(int value) {
-
       if (size == cap) {
         resize();
       }
@@ -45,7 +43,7 @@ class Vect {
 
 
 int main() {
-  Vect* v = new Vect();
+  Vect* v = new Vect(10);
 
   v->pushBack(1);
   v->pushBack(2);
