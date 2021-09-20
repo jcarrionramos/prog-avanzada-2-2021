@@ -56,10 +56,10 @@ RM = C:\Users\nico0\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\212.5080.54\
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\nico0\CLionProjects\prog-avanzada-2-2021\Nicolas
+CMAKE_SOURCE_DIR = E:\Proyectos\C++\prog-avanzada-2-2021\Nicolas
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\nico0\CLionProjects\prog-avanzada-2-2021\Nicolas\cmake-build-debug
+CMAKE_BINARY_DIR = E:\Proyectos\C++\prog-avanzada-2-2021\Nicolas\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\nico0\CLionProjects\prog-avanzada-2-2021\Nicolas\cmake-build-debug\CMakeFiles C:\Users\nico0\CLionProjects\prog-avanzada-2-2021\Nicolas\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\Proyectos\C++\prog-avanzada-2-2021\Nicolas\cmake-build-debug\CMakeFiles E:\Proyectos\C++\prog-avanzada-2-2021\Nicolas\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\nico0\CLionProjects\prog-avanzada-2-2021\Nicolas\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\Proyectos\C++\prog-avanzada-2-2021\Nicolas\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -128,29 +128,29 @@ Nicolas/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nicolas.dir\build.make CMakeFiles/Nicolas.dir/build
 .PHONY : Nicolas/fast
 
-tarea1.obj: tarea1.cpp.obj
-.PHONY : tarea1.obj
+ayudantia51.obj: ayudantia51.cpp.obj
+.PHONY : ayudantia51.obj
 
 # target to build an object file
-tarea1.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nicolas.dir\build.make CMakeFiles/Nicolas.dir/tarea1.cpp.obj
-.PHONY : tarea1.cpp.obj
+ayudantia51.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nicolas.dir\build.make CMakeFiles/Nicolas.dir/ayudantia51.cpp.obj
+.PHONY : ayudantia51.cpp.obj
 
-tarea1.i: tarea1.cpp.i
-.PHONY : tarea1.i
+ayudantia51.i: ayudantia51.cpp.i
+.PHONY : ayudantia51.i
 
 # target to preprocess a source file
-tarea1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nicolas.dir\build.make CMakeFiles/Nicolas.dir/tarea1.cpp.i
-.PHONY : tarea1.cpp.i
+ayudantia51.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nicolas.dir\build.make CMakeFiles/Nicolas.dir/ayudantia51.cpp.i
+.PHONY : ayudantia51.cpp.i
 
-tarea1.s: tarea1.cpp.s
-.PHONY : tarea1.s
+ayudantia51.s: ayudantia51.cpp.s
+.PHONY : ayudantia51.s
 
 # target to generate assembly for a file
-tarea1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nicolas.dir\build.make CMakeFiles/Nicolas.dir/tarea1.cpp.s
-.PHONY : tarea1.cpp.s
+ayudantia51.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nicolas.dir\build.make CMakeFiles/Nicolas.dir/ayudantia51.cpp.s
+.PHONY : ayudantia51.cpp.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Nicolas
-	@echo ... tarea1.obj
-	@echo ... tarea1.i
-	@echo ... tarea1.s
+	@echo ... ayudantia51.obj
+	@echo ... ayudantia51.i
+	@echo ... ayudantia51.s
 .PHONY : help
 
 
