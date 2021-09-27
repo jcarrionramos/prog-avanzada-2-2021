@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "E:/Proyectos/C++/prog-avanzada-2-2021/Nicolas/ayudantia53.cpp" "E:/Proyectos/C++/prog-avanzada-2-2021/Nicolas/cmake-build-debug/CMakeFiles/Nicolas.dir/ayudantia53.cpp.obj"
+  "/home/nicolas/CLionProjects/prog-avanzada-2-2021/Nicolas/ayudantia61.cpp" "/home/nicolas/CLionProjects/prog-avanzada-2-2021/Nicolas/cmake-build-debug/CMakeFiles/Nicolas.dir/ayudantia61.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
