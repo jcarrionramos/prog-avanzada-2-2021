@@ -23,7 +23,7 @@ int suma(int a, int b){
   return a + b;
 }
 
-int suma(float a, float b) {
+float suma(float a, float b) {
   return a + b;
 }
 
