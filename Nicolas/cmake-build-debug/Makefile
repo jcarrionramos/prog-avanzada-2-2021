@@ -128,29 +128,29 @@ Nicolas/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nicolas.dir\build.make CMakeFiles/Nicolas.dir/build
 .PHONY : Nicolas/fast
 
-ayudantia71.obj: ayudantia71.cpp.obj
-.PHONY : ayudantia71.obj
+ayudantia72.obj: ayudantia72.cpp.obj
+.PHONY : ayudantia72.obj
 
 # target to build an object file
-ayudantia71.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nicolas.dir\build.make CMakeFiles/Nicolas.dir/ayudantia71.cpp.obj
-.PHONY : ayudantia71.cpp.obj
+ayudantia72.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nicolas.dir\build.make CMakeFiles/Nicolas.dir/ayudantia72.cpp.obj
+.PHONY : ayudantia72.cpp.obj
 
-ayudantia71.i: ayudantia71.cpp.i
-.PHONY : ayudantia71.i
+ayudantia72.i: ayudantia72.cpp.i
+.PHONY : ayudantia72.i
 
 # target to preprocess a source file
-ayudantia71.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nicolas.dir\build.make CMakeFiles/Nicolas.dir/ayudantia71.cpp.i
-.PHONY : ayudantia71.cpp.i
+ayudantia72.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nicolas.dir\build.make CMakeFiles/Nicolas.dir/ayudantia72.cpp.i
+.PHONY : ayudantia72.cpp.i
 
-ayudantia71.s: ayudantia71.cpp.s
-.PHONY : ayudantia71.s
+ayudantia72.s: ayudantia72.cpp.s
+.PHONY : ayudantia72.s
 
 # target to generate assembly for a file
-ayudantia71.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nicolas.dir\build.make CMakeFiles/Nicolas.dir/ayudantia71.cpp.s
-.PHONY : ayudantia71.cpp.s
+ayudantia72.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nicolas.dir\build.make CMakeFiles/Nicolas.dir/ayudantia72.cpp.s
+.PHONY : ayudantia72.cpp.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Nicolas
-	@echo ... ayudantia71.obj
-	@echo ... ayudantia71.i
-	@echo ... ayudantia71.s
+	@echo ... ayudantia72.obj
+	@echo ... ayudantia72.i
+	@echo ... ayudantia72.s
 .PHONY : help
 
 
