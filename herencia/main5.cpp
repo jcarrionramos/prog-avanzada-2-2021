@@ -31,7 +31,7 @@ class Cuenta {
     }  
 
     string getTipo () {
-      return tipo
+      return tipo;
     }
   
     int getNumero() {
@@ -77,12 +77,12 @@ class CuentaJoven : public Cuenta {
   }
 
   void deposito(double monto) {
-    if (monto > 50000) {
-      cout << "Monto no valido" << endl;
-      return; 
-    }
+      if (monto > 50000) {
+        cout << "Monto no valido" << endl;
+        return; 
+      }
 
-    saldo = saldo + monto;
+      saldo = saldo + monto;
   } 
 
   void retiro(double monto) {
@@ -93,59 +93,40 @@ class CuentaJoven : public Cuenta {
 
     double totalMasImpuesto = monto + (monto * 0.005);
 
-    if (totalMasImpuesto > saldo) {
-      cout << "Saldo insuficiente" << endl;
-      return; 
-    }
-
-    saldo = saldo - totalMasImpuesto;
+    Cuenta::retiro(totalMasImpuesto);
   } 
 };
 
 class Banco {
   private:
     Cuenta *cuentas[100];
+
+    Cuenta *buscarCuenta(int numero) {
+      Cuenta *temp = nullptr;
+      for (int i = 0; i < 100; i++) {
+        if (cuentas[i]->getNumero() == numero) {
+          temp = cuentas[i];
+          break;
+        }
+      }
+
+      return temp;
+    }
+
   public: 
     Banco () {}
 
     void realizarDeposito(int numero, double monto) {
-      // Creamos una variable que guarde la cuenta a buscar
-      Cuenta *temp = nullptr;
+      Cuenta *temp = buscarCuenta(numero);
+      if (temp ==  nullptr) return;
 
-      // Buscamos la cuenta
-      for (int i = 0; i < 100; i++) {
-        
-        // Si existe la cuenta, la guardamos en temp  
-        if (cuentas[i]->numero == numero) {
-          temp = cuentas[i];
-          break;
-        }
-
-      }
-
-      // Si temp es nullptr, quiere decir que la cuenta no existe
-      if (temp == nullptr) {
-        return;
-      }
-      
-      // Si existe temp, realizamos el deposito
       temp->deposito(monto);
-
     }
 
     void realizarRetiro(int numero, double monto) {
-      Cuenta *temp = nullptr;
-      for (int i = 0; i < 100; i++) {
-        if (cuentas[i]->numero == numero) {
-          temp = cuentas[i];
-          break;
-        }
-      }
+      Cuenta *temp = buscarCuenta(numero);
+      if (temp ==  nullptr) return;
 
-      if (temp == nullptr) {
-        return;
-      }
-      
       temp->retiro(monto);
     }
 };
