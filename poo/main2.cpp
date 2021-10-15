@@ -35,8 +35,8 @@ int main() {
   Node* b = new Node(2);
   Node* c = new Node(3);
 
-  a->setNext(c);
-  c->setNext(b);
+  a->setNext(b);
+  b->setNext(c);
 
   Node* temp = a;
   while(temp != NULL) {
