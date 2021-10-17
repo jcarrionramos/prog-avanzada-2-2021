@@ -11,6 +11,7 @@ class Complex {
       imag = i;
     }
 
+    // Sobrecarga de operadores
     Complex operator+ (Complex const &obj) {
       Complex res;
       res.real = real + obj.real;
@@ -19,6 +20,7 @@ class Complex {
     }
 };
 
+// Sobrecarga de funciones
 int suma(int a, int b){
   return a + b;
 }

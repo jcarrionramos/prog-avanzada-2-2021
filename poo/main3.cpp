@@ -43,16 +43,16 @@ class Vect {
 
 
 int main() {
-  Vect* v = new Vect(10);
+  Vect* v = new Vect(3);
 
   v->pushBack(1);
   v->pushBack(2);
   v->pushBack(3);
   v->pushBack(4);
   v->pushBack(5);
-  v->pushBack(5);
-  v->pushBack(5);
-  v->pushBack(5);
-  v->pushBack(5);
+  v->pushBack(6);
+  v->pushBack(7);
+  v->pushBack(8);
+  v->pushBack(9);
 
 }
