@@ -47,10 +47,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = C:\Users\nico0\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\212.5080.54\bin\cmake\win\bin\cmake.exe
+CMAKE_COMMAND = C:\Users\nico0\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\212.5457.51\bin\cmake\win\bin\cmake.exe
 
 # The command to remove a file.
-RM = C:\Users\nico0\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\212.5080.54\bin\cmake\win\bin\cmake.exe -E rm -f
+RM = C:\Users\nico0\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\212.5457.51\bin\cmake\win\bin\cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -67,7 +67,7 @@ CMAKE_BINARY_DIR = E:\Proyectos\C++\prog-avanzada-2-2021\Nicolas\cmake-build-deb
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	C:\Users\nico0\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\212.5080.54\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available."
+	C:\Users\nico0\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\212.5457.51\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -77,7 +77,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	C:\Users\nico0\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\212.5080.54\bin\cmake\win\bin\cmake.exe --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	C:\Users\nico0\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\212.5457.51\bin\cmake\win\bin\cmake.exe --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -128,29 +128,29 @@ Nicolas/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nicolas.dir\build.make CMakeFiles/Nicolas.dir/build
 .PHONY : Nicolas/fast
 
-ayudantia73.obj: ayudantia73.cpp.obj
-.PHONY : ayudantia73.obj
+codigoejstack.obj: codigoejstack.cpp.obj
+.PHONY : codigoejstack.obj
 
 # target to build an object file
-ayudantia73.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nicolas.dir\build.make CMakeFiles/Nicolas.dir/ayudantia73.cpp.obj
-.PHONY : ayudantia73.cpp.obj
+codigoejstack.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nicolas.dir\build.make CMakeFiles/Nicolas.dir/codigoejstack.cpp.obj
+.PHONY : codigoejstack.cpp.obj
 
-ayudantia73.i: ayudantia73.cpp.i
-.PHONY : ayudantia73.i
+codigoejstack.i: codigoejstack.cpp.i
+.PHONY : codigoejstack.i
 
 # target to preprocess a source file
-ayudantia73.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nicolas.dir\build.make CMakeFiles/Nicolas.dir/ayudantia73.cpp.i
-.PHONY : ayudantia73.cpp.i
+codigoejstack.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nicolas.dir\build.make CMakeFiles/Nicolas.dir/codigoejstack.cpp.i
+.PHONY : codigoejstack.cpp.i
 
-ayudantia73.s: ayudantia73.cpp.s
-.PHONY : ayudantia73.s
+codigoejstack.s: codigoejstack.cpp.s
+.PHONY : codigoejstack.s
 
 # target to generate assembly for a file
-ayudantia73.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nicolas.dir\build.make CMakeFiles/Nicolas.dir/ayudantia73.cpp.s
-.PHONY : ayudantia73.cpp.s
+codigoejstack.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nicolas.dir\build.make CMakeFiles/Nicolas.dir/codigoejstack.cpp.s
+.PHONY : codigoejstack.cpp.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Nicolas
-	@echo ... ayudantia73.obj
-	@echo ... ayudantia73.i
-	@echo ... ayudantia73.s
+	@echo ... codigoejstack.obj
+	@echo ... codigoejstack.i
+	@echo ... codigoejstack.s
 .PHONY : help
 
 
