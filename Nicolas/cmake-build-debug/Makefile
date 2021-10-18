@@ -128,29 +128,29 @@ Nicolas/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nicolas.dir\build.make CMakeFiles/Nicolas.dir/build
 .PHONY : Nicolas/fast
 
-codigoejstack.obj: codigoejstack.cpp.obj
-.PHONY : codigoejstack.obj
+ayudantia81.obj: ayudantia81.cpp.obj
+.PHONY : ayudantia81.obj
 
 # target to build an object file
-codigoejstack.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nicolas.dir\build.make CMakeFiles/Nicolas.dir/codigoejstack.cpp.obj
-.PHONY : codigoejstack.cpp.obj
+ayudantia81.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nicolas.dir\build.make CMakeFiles/Nicolas.dir/ayudantia81.cpp.obj
+.PHONY : ayudantia81.cpp.obj
 
-codigoejstack.i: codigoejstack.cpp.i
-.PHONY : codigoejstack.i
+ayudantia81.i: ayudantia81.cpp.i
+.PHONY : ayudantia81.i
 
 # target to preprocess a source file
-codigoejstack.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nicolas.dir\build.make CMakeFiles/Nicolas.dir/codigoejstack.cpp.i
-.PHONY : codigoejstack.cpp.i
+ayudantia81.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nicolas.dir\build.make CMakeFiles/Nicolas.dir/ayudantia81.cpp.i
+.PHONY : ayudantia81.cpp.i
 
-codigoejstack.s: codigoejstack.cpp.s
-.PHONY : codigoejstack.s
+ayudantia81.s: ayudantia81.cpp.s
+.PHONY : ayudantia81.s
 
 # target to generate assembly for a file
-codigoejstack.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nicolas.dir\build.make CMakeFiles/Nicolas.dir/codigoejstack.cpp.s
-.PHONY : codigoejstack.cpp.s
+ayudantia81.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Nicolas.dir\build.make CMakeFiles/Nicolas.dir/ayudantia81.cpp.s
+.PHONY : ayudantia81.cpp.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Nicolas
-	@echo ... codigoejstack.obj
-	@echo ... codigoejstack.i
-	@echo ... codigoejstack.s
+	@echo ... ayudantia81.obj
+	@echo ... ayudantia81.i
+	@echo ... ayudantia81.s
 .PHONY : help
 
 
