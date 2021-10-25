@@ -48,8 +48,8 @@ int main(){
                     cout<<"No hay existencias de paracetamol"<<endl;
                 }else{
                     cout<<"Venta existosa"<<endl;
-                    paracetamol.pop();
                     ventatot+=paracetamol.front()->getPrecio();
+                    paracetamol.pop();
                 }
 
             }else if(prod==2){
@@ -57,8 +57,8 @@ int main(){
                     cout<<"No hay existencias de ibuprofeno"<<endl;
                 }else{
                     cout<<"Venta existosa"<<endl;
-                    ibuprofeno.pop();
                     ventatot+=ibuprofeno.front()->getPrecio();
+                    ibuprofeno.pop();
                 }
 
             }else if(prod==3){
@@ -66,8 +66,8 @@ int main(){
                     cout<<"No hay existencias de imecol"<<endl;
                 }else{
                     cout<<"Venta existosa"<<endl;
-                    imecol.pop();
                     ventatot+=imecol.front()->getPrecio();
+                    imecol.pop();
                 }
             }
 
