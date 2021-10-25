@@ -6,13 +6,9 @@
 
 #IncludeRegexTransform: 
 
-E:/Proyectos/C++/prog-avanzada-2-2021/Nicolas/ayudantia83.cpp
+E:/Proyectos/C++/prog-avanzada-2-2021/Nicolas/ayudantia91.cpp
 iostream
 -
-stack
--
-ctime
--
-cstdlib
+queue
 -
 
