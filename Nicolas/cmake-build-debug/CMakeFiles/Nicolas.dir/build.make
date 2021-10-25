@@ -65,27 +65,27 @@ include CMakeFiles/Nicolas.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Nicolas.dir/flags.make
 
-CMakeFiles/Nicolas.dir/ayudantia91.cpp.obj: CMakeFiles/Nicolas.dir/flags.make
-CMakeFiles/Nicolas.dir/ayudantia91.cpp.obj: ../ayudantia91.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Proyectos\C++\prog-avanzada-2-2021\Nicolas\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Nicolas.dir/ayudantia91.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Nicolas.dir\ayudantia91.cpp.obj -c E:\Proyectos\C++\prog-avanzada-2-2021\Nicolas\ayudantia91.cpp
+CMakeFiles/Nicolas.dir/ayudantia92.cpp.obj: CMakeFiles/Nicolas.dir/flags.make
+CMakeFiles/Nicolas.dir/ayudantia92.cpp.obj: ../ayudantia92.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Proyectos\C++\prog-avanzada-2-2021\Nicolas\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Nicolas.dir/ayudantia92.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Nicolas.dir\ayudantia92.cpp.obj -c E:\Proyectos\C++\prog-avanzada-2-2021\Nicolas\ayudantia92.cpp
 
-CMakeFiles/Nicolas.dir/ayudantia91.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Nicolas.dir/ayudantia91.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Proyectos\C++\prog-avanzada-2-2021\Nicolas\ayudantia91.cpp > CMakeFiles\Nicolas.dir\ayudantia91.cpp.i
+CMakeFiles/Nicolas.dir/ayudantia92.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Nicolas.dir/ayudantia92.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Proyectos\C++\prog-avanzada-2-2021\Nicolas\ayudantia92.cpp > CMakeFiles\Nicolas.dir\ayudantia92.cpp.i
 
-CMakeFiles/Nicolas.dir/ayudantia91.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Nicolas.dir/ayudantia91.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Proyectos\C++\prog-avanzada-2-2021\Nicolas\ayudantia91.cpp -o CMakeFiles\Nicolas.dir\ayudantia91.cpp.s
+CMakeFiles/Nicolas.dir/ayudantia92.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Nicolas.dir/ayudantia92.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Proyectos\C++\prog-avanzada-2-2021\Nicolas\ayudantia92.cpp -o CMakeFiles\Nicolas.dir\ayudantia92.cpp.s
 
 # Object files for target Nicolas
 Nicolas_OBJECTS = \
-"CMakeFiles/Nicolas.dir/ayudantia91.cpp.obj"
+"CMakeFiles/Nicolas.dir/ayudantia92.cpp.obj"
 
 # External object files for target Nicolas
 Nicolas_EXTERNAL_OBJECTS =
 
-Nicolas.exe: CMakeFiles/Nicolas.dir/ayudantia91.cpp.obj
+Nicolas.exe: CMakeFiles/Nicolas.dir/ayudantia92.cpp.obj
 Nicolas.exe: CMakeFiles/Nicolas.dir/build.make
 Nicolas.exe: CMakeFiles/Nicolas.dir/linklibs.rsp
 Nicolas.exe: CMakeFiles/Nicolas.dir/objects1.rsp
