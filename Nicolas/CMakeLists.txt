@@ -3,4 +3,4 @@ project(Nicolas)
 
 set(CMAKE_CXX_STANDARD 23)
 
-add_executable(Nicolas ayudantia92.cpp)
+add_executable(Nicolas codigoejvector.cpp)
