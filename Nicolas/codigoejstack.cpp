@@ -7,9 +7,15 @@ int main(){
     pilita.push(5);
     pilita.push(3);
     pilita.push(4);
+    //1 = verdadero y 0= falso
     cout<<pilita.empty()<<" "<<pilita.size()<<endl;
     int largo=pilita.size();
-    for (int i = 0; i < largo; ++i) {
+    /*
+    while(pilita.empty()==false){
+        cout<<pilita.top()<<endl;
+        pilita.pop();
+    }*/
+    for (int i = 0; i < largo; i++) {
         cout<<pilita.top()<<endl;
         pilita.pop();
     }

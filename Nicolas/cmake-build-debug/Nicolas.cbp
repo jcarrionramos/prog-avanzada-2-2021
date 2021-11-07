@@ -80,7 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="E:/Proyectos/C++/prog-avanzada-2-2021/Nicolas/ayudantia93.cpp">
+		<Unit filename="E:/Proyectos/C++/prog-avanzada-2-2021/Nicolas/ayudantia92.cpp">
 			<Option target="Nicolas"/>
 		</Unit>
 		<Unit filename="E:/Proyectos/C++/prog-avanzada-2-2021/Nicolas/CMakeLists.txt">
