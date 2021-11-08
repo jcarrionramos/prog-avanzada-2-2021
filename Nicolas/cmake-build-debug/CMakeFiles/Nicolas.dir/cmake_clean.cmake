@@ -1,9 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Nicolas.dir/codigoejvector.cpp.obj"
-  "Nicolas.exe"
-  "Nicolas.exe.manifest"
+  "CMakeFiles/Nicolas.dir/codigoejvector.cpp.o"
+  "Nicolas"
   "Nicolas.pdb"
-  "libNicolas.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.
