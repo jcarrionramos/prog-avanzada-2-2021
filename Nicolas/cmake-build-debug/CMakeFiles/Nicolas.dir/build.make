@@ -66,27 +66,27 @@ include CMakeFiles/Nicolas.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Nicolas.dir/flags.make
 
-CMakeFiles/Nicolas.dir/codigoejvector.cpp.o: CMakeFiles/Nicolas.dir/flags.make
-CMakeFiles/Nicolas.dir/codigoejvector.cpp.o: ../codigoejvector.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andresmoncada/CLionProjects/prog-avanzada-2-2021/Nicolas/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Nicolas.dir/codigoejvector.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Nicolas.dir/codigoejvector.cpp.o -c /Users/andresmoncada/CLionProjects/prog-avanzada-2-2021/Nicolas/codigoejvector.cpp
+CMakeFiles/Nicolas.dir/ayudantia101.cpp.o: CMakeFiles/Nicolas.dir/flags.make
+CMakeFiles/Nicolas.dir/ayudantia101.cpp.o: ../ayudantia101.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/andresmoncada/CLionProjects/prog-avanzada-2-2021/Nicolas/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Nicolas.dir/ayudantia101.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Nicolas.dir/ayudantia101.cpp.o -c /Users/andresmoncada/CLionProjects/prog-avanzada-2-2021/Nicolas/ayudantia101.cpp
 
-CMakeFiles/Nicolas.dir/codigoejvector.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Nicolas.dir/codigoejvector.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/andresmoncada/CLionProjects/prog-avanzada-2-2021/Nicolas/codigoejvector.cpp > CMakeFiles/Nicolas.dir/codigoejvector.cpp.i
+CMakeFiles/Nicolas.dir/ayudantia101.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Nicolas.dir/ayudantia101.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/andresmoncada/CLionProjects/prog-avanzada-2-2021/Nicolas/ayudantia101.cpp > CMakeFiles/Nicolas.dir/ayudantia101.cpp.i
 
-CMakeFiles/Nicolas.dir/codigoejvector.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Nicolas.dir/codigoejvector.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/andresmoncada/CLionProjects/prog-avanzada-2-2021/Nicolas/codigoejvector.cpp -o CMakeFiles/Nicolas.dir/codigoejvector.cpp.s
+CMakeFiles/Nicolas.dir/ayudantia101.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Nicolas.dir/ayudantia101.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/andresmoncada/CLionProjects/prog-avanzada-2-2021/Nicolas/ayudantia101.cpp -o CMakeFiles/Nicolas.dir/ayudantia101.cpp.s
 
 # Object files for target Nicolas
 Nicolas_OBJECTS = \
-"CMakeFiles/Nicolas.dir/codigoejvector.cpp.o"
+"CMakeFiles/Nicolas.dir/ayudantia101.cpp.o"
 
 # External object files for target Nicolas
 Nicolas_EXTERNAL_OBJECTS =
 
-Nicolas: CMakeFiles/Nicolas.dir/codigoejvector.cpp.o
+Nicolas: CMakeFiles/Nicolas.dir/ayudantia101.cpp.o
 Nicolas: CMakeFiles/Nicolas.dir/build.make
 Nicolas: CMakeFiles/Nicolas.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/andresmoncada/CLionProjects/prog-avanzada-2-2021/Nicolas/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Nicolas"

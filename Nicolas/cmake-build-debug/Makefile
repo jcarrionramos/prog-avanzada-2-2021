@@ -129,29 +129,29 @@ Nicolas/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Nicolas.dir/build.make CMakeFiles/Nicolas.dir/build
 .PHONY : Nicolas/fast
 
-codigoejvector.o: codigoejvector.cpp.o
-.PHONY : codigoejvector.o
+ayudantia101.o: ayudantia101.cpp.o
+.PHONY : ayudantia101.o
 
 # target to build an object file
-codigoejvector.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Nicolas.dir/build.make CMakeFiles/Nicolas.dir/codigoejvector.cpp.o
-.PHONY : codigoejvector.cpp.o
+ayudantia101.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Nicolas.dir/build.make CMakeFiles/Nicolas.dir/ayudantia101.cpp.o
+.PHONY : ayudantia101.cpp.o
 
-codigoejvector.i: codigoejvector.cpp.i
-.PHONY : codigoejvector.i
+ayudantia101.i: ayudantia101.cpp.i
+.PHONY : ayudantia101.i
 
 # target to preprocess a source file
-codigoejvector.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Nicolas.dir/build.make CMakeFiles/Nicolas.dir/codigoejvector.cpp.i
-.PHONY : codigoejvector.cpp.i
+ayudantia101.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Nicolas.dir/build.make CMakeFiles/Nicolas.dir/ayudantia101.cpp.i
+.PHONY : ayudantia101.cpp.i
 
-codigoejvector.s: codigoejvector.cpp.s
-.PHONY : codigoejvector.s
+ayudantia101.s: ayudantia101.cpp.s
+.PHONY : ayudantia101.s
 
 # target to generate assembly for a file
-codigoejvector.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Nicolas.dir/build.make CMakeFiles/Nicolas.dir/codigoejvector.cpp.s
-.PHONY : codigoejvector.cpp.s
+ayudantia101.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Nicolas.dir/build.make CMakeFiles/Nicolas.dir/ayudantia101.cpp.s
+.PHONY : ayudantia101.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Nicolas"
-	@echo "... codigoejvector.o"
-	@echo "... codigoejvector.i"
-	@echo "... codigoejvector.s"
+	@echo "... ayudantia101.o"
+	@echo "... ayudantia101.i"
+	@echo "... ayudantia101.s"
 .PHONY : help
 
 
