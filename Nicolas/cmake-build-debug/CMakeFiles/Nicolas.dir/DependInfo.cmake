@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/andresmoncada/CLionProjects/prog-avanzada-2-2021/Nicolas/ayudantia101.cpp" "/Users/andresmoncada/CLionProjects/prog-avanzada-2-2021/Nicolas/cmake-build-debug/CMakeFiles/Nicolas.dir/ayudantia101.cpp.o"
+  "/Users/andresmoncada/CLionProjects/prog-avanzada-2-2021/Nicolas/ayudantia102.cpp" "/Users/andresmoncada/CLionProjects/prog-avanzada-2-2021/Nicolas/cmake-build-debug/CMakeFiles/Nicolas.dir/ayudantia102.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
