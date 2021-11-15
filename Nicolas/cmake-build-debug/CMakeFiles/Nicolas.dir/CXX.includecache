@@ -6,15 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/Users/andresmoncada/CLionProjects/prog-avanzada-2-2021/Nicolas/ayudantia103.cpp
+/Users/andresmoncada/CLionProjects/prog-avanzada-2-2021/Nicolas/ayudantia112.cpp
 iostream
 -
-vector
--
-queue
--
-cstdlib
--
-ctime
+stack
 -
 
