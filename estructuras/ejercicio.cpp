@@ -75,6 +75,11 @@ class Alumno {
 
     // Elimina del vector el curso que cumpla con el nombre
     void eliminarCurso(string nombreCurso) {
+      if (cursos.empty()) {
+        cout << "No hay cursos" << endl;
+        return;
+      }
+
       for (int i = 0; i < cursos.size(); i++) {
         if (cursos[i].getNombre() == nombreCurso) {
           cursos.erase(cursos.begin() + i);
@@ -87,31 +92,16 @@ class Alumno {
     // Agrega un curso al vector pero verfica antes que no se encuentre en el vector
     // en caso de el curso ya haya sido ingresado, se debe mostrar por pantalla
     // "Curso ya inscrito" y no se ingresa.
-    void agregarSinRepetirNombre(string nombreCurso, int nota1, int nota2, int nota3){
+    void agregarSinRepetirNombre(string nombreCurso, int nota1, int nota2, int nota3) {
+      for (int i = 0; i < cursos.size(); i++) {
+        if (cursos[i].getNombre() == nombreCurso) {
+          cout << "Curso ya inscrito" << endl;
+          return;
+        }
+      }
 
+      agregarCurso(nombreCurso, nota1, nota2, nota3);
     }
 
 };
 
-
-// Ejercicio propuesto
-// Convertir de decimal a binario:
-// 
-// Ejemplo: 7
-//  
-//       7 % 2 = 1  2^0
-// (7/2) 3 % 2 = 1  2^1
-// (3/2) 1 % 2 = 1  2^2
-// (1/2) 0 => fin
-// return "111"
-// 
-// ------- 0 -------
-// 
-// Ejemplo: 8
-//
-//       8 % 2 = 0  2^0
-// (8/2) 4 % 2 = 0  2^1
-// (4/2) 2 % 2 = 0  2^2
-// (2/2) 1 % 2 = 1  2^3
-// (1/2) 0 => fin
-// return "1000"; 
