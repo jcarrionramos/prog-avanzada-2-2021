@@ -9,13 +9,12 @@ int main(){
     pilita.push(4);
     //1 = verdadero y 0= falso
     cout<<pilita.empty()<<" "<<pilita.size()<<endl;
-    int largo=pilita.size();
-    /*
-    while(pilita.empty()==false){
+    int inicial=pilita.size();
+    /*while(pilita.empty()==false){
         cout<<pilita.top()<<endl;
         pilita.pop();
     }*/
-    for (int i = 0; i < largo; i++) {
+    for (int i = 0; i < inicial; i++) {
         cout<<pilita.top()<<endl;
         pilita.pop();
     }

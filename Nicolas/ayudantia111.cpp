@@ -48,6 +48,8 @@ public:
             int final=aux.size();
             if (final==largo){
                 cout<<"No se encontro el alumno"<<endl;
+            }else{
+                cout<<"El alumno fue fusilado"<<endl;
             }
             for (int i = 0; i < final; ++i) {
                 vectorsito.push_back(aux.back());

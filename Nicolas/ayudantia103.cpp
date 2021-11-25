@@ -22,6 +22,7 @@ public:
 
 int main(){
     srand(time(NULL));
+
     queue<vector<Producto*>>fila;
     float ventadia=0;
     int opcion=0;

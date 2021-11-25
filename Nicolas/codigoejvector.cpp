@@ -11,10 +11,9 @@ int main(){
     //push - pop
     //push_back - pop_back
 
-    //5 - 3 - 2 - 1
-    //0 - 1 - 2 - 3
+    //0->1er 1->2do 2->3ro
     cout<<vectorsito.front()<<" - "<<vectorsito.back()<<" - "<<vectorsito.at(2)<<" - "<<vectorsito.size()<<endl;
     vectorsito.pop_back();
-    cout<<vectorsito.front()<<" - "<<vectorsito.back()<<" - "<<vectorsito.at(2)<<" - "<<vectorsito.size()<<endl;
+    cout<<vectorsito.front()<<" - "<<vectorsito.back()<<" - "<<vectorsito[2]<<" - "<<vectorsito.size()<<endl;
     return 0;
 }

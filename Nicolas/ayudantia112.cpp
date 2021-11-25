@@ -30,6 +30,8 @@ int main(){
             }
         }else if(opcion=='d'){
             int largo=juego.size();
+            //50 -> 0 -> 100
+            //50 -> 100
             for (int i = 0; i < largo; ++i) {
                 juego.push('o');
             }

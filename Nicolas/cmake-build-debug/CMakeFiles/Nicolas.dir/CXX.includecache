@@ -6,9 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Users/andresmoncada/CLionProjects/prog-avanzada-2-2021/Nicolas/ayudantia113.cpp
+/Users/andresmoncada/CLionProjects/prog-avanzada-2-2021/Nicolas/tareaopc.cpp
 iostream
 -
-queue
+map
+-
+vector
 -
 

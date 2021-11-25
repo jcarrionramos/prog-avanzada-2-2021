@@ -32,7 +32,8 @@ int main(){
                 bonito.pop();
             }
         }
-        cout<<"El areglo de numero quedo de tamanio "<<aux.size()<<endl;
+        // {3,4,5,4,2,4}
+        cout<<"El arreglo de numero quedo de tamanio "<<aux.size()<<endl;
         int fin=aux.size();
         for (int i = 0; i < fin; ++i) {
             cout<<aux.front();

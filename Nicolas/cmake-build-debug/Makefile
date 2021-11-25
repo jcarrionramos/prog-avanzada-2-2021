@@ -129,29 +129,29 @@ Nicolas/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Nicolas.dir/build.make CMakeFiles/Nicolas.dir/build
 .PHONY : Nicolas/fast
 
-ayudantia113.o: ayudantia113.cpp.o
-.PHONY : ayudantia113.o
+tareaopc.o: tareaopc.cpp.o
+.PHONY : tareaopc.o
 
 # target to build an object file
-ayudantia113.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Nicolas.dir/build.make CMakeFiles/Nicolas.dir/ayudantia113.cpp.o
-.PHONY : ayudantia113.cpp.o
+tareaopc.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Nicolas.dir/build.make CMakeFiles/Nicolas.dir/tareaopc.cpp.o
+.PHONY : tareaopc.cpp.o
 
-ayudantia113.i: ayudantia113.cpp.i
-.PHONY : ayudantia113.i
+tareaopc.i: tareaopc.cpp.i
+.PHONY : tareaopc.i
 
 # target to preprocess a source file
-ayudantia113.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Nicolas.dir/build.make CMakeFiles/Nicolas.dir/ayudantia113.cpp.i
-.PHONY : ayudantia113.cpp.i
+tareaopc.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Nicolas.dir/build.make CMakeFiles/Nicolas.dir/tareaopc.cpp.i
+.PHONY : tareaopc.cpp.i
 
-ayudantia113.s: ayudantia113.cpp.s
-.PHONY : ayudantia113.s
+tareaopc.s: tareaopc.cpp.s
+.PHONY : tareaopc.s
 
 # target to generate assembly for a file
-ayudantia113.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Nicolas.dir/build.make CMakeFiles/Nicolas.dir/ayudantia113.cpp.s
-.PHONY : ayudantia113.cpp.s
+tareaopc.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Nicolas.dir/build.make CMakeFiles/Nicolas.dir/tareaopc.cpp.s
+.PHONY : tareaopc.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Nicolas"
-	@echo "... ayudantia113.o"
-	@echo "... ayudantia113.i"
-	@echo "... ayudantia113.s"
+	@echo "... tareaopc.o"
+	@echo "... tareaopc.i"
+	@echo "... tareaopc.s"
 .PHONY : help
 
 
